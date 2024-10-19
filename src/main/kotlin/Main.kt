@@ -24,7 +24,7 @@ class Slime: Enemy(8) {
     override val damage: Int get() = 4
 }
 
-class Zombie: Enemy(12) {
+class Zombie: Enemy(15) {
     override val name: String get() = "Zombie"
     override val damage: Int get() = 6
 }
